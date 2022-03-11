@@ -33,7 +33,8 @@ import type LatestSongRelease from '@/types/LatestSongRelease'
 export default defineComponent({
     props: {
         songs: {
-            type: Array as PropType<LatestSongRelease[]>
+            type: Array as PropType<LatestSongRelease[]>,
+            required: true
         }
     },
     setup(props) {

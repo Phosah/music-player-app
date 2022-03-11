@@ -1,23 +1,35 @@
 <template>
-    <div class="p-3">
-        <div class="flex items-center justify-between mb-4">
-            <p>Top Streams Real-time</p>
-            <div class="flex items-center">
-                <button class="bg-red-100">Local</button>
-                <button class="bg-blue-200">Global</button>
-            </div>
+    <div class="mt-4">
+        <div class="flex space-x-2 items-center mb-3">
+            <p>Recently played</p>
+            <svg
+                class="w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+            >
+                <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M10 9v6m4-6v6m7-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+            </svg>
         </div>
-        <div v-for="(stream, ix) in streams" :key="ix">
-            <div class="flex items-center justify-between pb-3 border-b border-white mb-3">
-                <div class="flex items-center space-x-2">
-                    <img :src="stream.img" :alt="stream.alt" />
+        <div v-for="(song, ix) in recentlyPlayedSongs" :key="ix">
+            <div class="flex items-center justify-between space-x-4 mb-2">
+                <div class="flex-1 flex items-center space-x-2">
+                    <p>{{ ix }}</p>
                     <div>
-                        <p>{{ stream.title }}</p>
-                        <p>{{ stream.artiste }}</p>
+                        <img :src="song.img" :alt="song.alt" />
                     </div>
+                    <p>{{ song.title }}</p>
                 </div>
+                <div class="flex-1">{{ song.artiste }}</div>
+                <div class="flex-1">{{ song.album }}</div>
                 <div class="flex items-center space-x-2">
-                    <p>{{ stream.duration }}</p>
+                    <p>{{ song.duration }}</p>
                     <svg
                         class="w-6 h-6"
                         fill="none"
@@ -43,7 +55,7 @@
                             stroke-linecap="round"
                             stroke-linejoin="round"
                             stroke-width="2"
-                            d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"
+                            d="M4 8h16M4 16h16"
                         />
                     </svg>
                 </div>
@@ -55,14 +67,13 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
 import type { PropType } from 'vue'
-import type Stream from "@/types/TopStreams"
-
+import type RecentlyPlayed from '@/types/RecentlyPlayed'
 
 export default defineComponent({
-    name: "TopStreams",
+    name: "RecentlyPlayedSongs",
     props: {
-        streams: {
-            type: Array as PropType<Stream[]>,
+        recentlyPlayedSongs: {
+            type: Array as PropType<RecentlyPlayed[]>,
             required: true
         }
     },
