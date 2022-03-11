@@ -1,22 +1,25 @@
 <template>
-  <main class="my-20 flex">
-    <div>
-      <Sidebar />
-    </div>
-    <div class="w-2/3 flex-1 flex space-x-6 px-6">
-      <div class="bg-green-200">
-        <Banner />
-        <div>
-          <NewSongRelease :songs="songReleaseArr" />
-          <SongsYouMayLike :songs="songsYouMayLikeArr" />
-          <RecentlyPlayedSongs :recentlyPlayedSongs="playedSongsArr" />
+  <main class="my-20">
+    <div class="flex">
+      <div>
+        <Sidebar />
+      </div>
+      <div class="w-2/3 flex-1 flex space-x-6 px-6">
+        <div class="bg-green-200">
+          <Banner />
+          <div>
+            <NewSongRelease :songs="songReleaseArr" />
+            <SongsYouMayLike :songs="songsYouMayLikeArr" />
+            <RecentlyPlayedSongs :recentlyPlayedSongs="playedSongsArr" />
+          </div>
         </div>
       </div>
+      <div class="w-1/3 bg-yellow-200">
+        <TopStreams :streams="topStreamsArr" />
+        <Categories :categories="categoriesArr" />
+      </div>
     </div>
-    <div class="w-1/3 bg-yellow-200">
-      <TopStreams :streams="topStreamsArr" />
-      <Categories :categories="categoriesArr" />
-    </div>
+    <NowPlaying />
   </main>
 </template>
 
@@ -61,10 +64,11 @@ import type SongsToLike from "@/types/SongsToLike";
 import RecentlyPlayedSongs from "../components/RecentlyPlayedSongs.vue";
 import type { PropType } from "vue";
 import type RecentlyPlayed from "@/types/RecentlyPlayed";
+import NowPlaying from "../components/NowPlaying.vue";
 
 export default defineComponent({
   name: "Home",
-  components: { Sidebar, Banner, NewSongRelease, TopStreams, Categories, SongsYouMayLike, RecentlyPlayedSongs },
+  components: { Sidebar, Banner, NewSongRelease, TopStreams, Categories, SongsYouMayLike, RecentlyPlayedSongs, NowPlaying },
 
   setup() {
     const songReleaseArr = ref<LatestSongRelease[]>([
