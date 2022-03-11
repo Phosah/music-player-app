@@ -1,5 +1,5 @@
 <template>
-    <div class="mt-4">
+    <div class="mt-8">
         <div class="flex items-center justify-between mb-4">
             <div class="flex items-center space-x-2">
                 <p class="font-semibold">New Releases</p>

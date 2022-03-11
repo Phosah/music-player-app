@@ -1,5 +1,5 @@
 <template>
-    <div class="w-56 px-4 pt-6 bg-[#272727]">
+    <div class="w-56 px-4 pt-6 bg-[#272727] border-r border-[#313533]">
         <div class="mb-12">
             <img class="w-28" src="../assets/logo.png" alt="Logo" />
         </div>

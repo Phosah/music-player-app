@@ -5,7 +5,7 @@
         <Sidebar />
       </div>
       <div class="flex-1 flex space-x-6 px-6 pt-6 bg-[#171717]">
-        <div class="w-9/12">
+        <div class="w-4/6">
           <div class>
             <Banner />
             <div>
@@ -15,7 +15,7 @@
             </div>
           </div>
         </div>
-        <div class="w-3/12 bg-[#1E1E1E] rounded-md">
+        <div class="w-2/6">
           <TopStreams :streams="topStreamsArr" />
           <Categories :categories="categoriesArr" />
         </div>

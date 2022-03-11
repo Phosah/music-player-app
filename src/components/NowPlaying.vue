@@ -1,5 +1,7 @@
 <template>
-    <div class="px-20 h-16 flex items-center justify-between space-x-2 bg-fuchsia-600">
+    <div
+        class="px-20 h-16 flex items-center justify-between space-x-2 bg-[#272727] border-t border-[#313533]"
+    >
         <div class="flex items-center space-x-3">
             <svg
                 width="20"

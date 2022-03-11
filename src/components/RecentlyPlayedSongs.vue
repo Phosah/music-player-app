@@ -21,13 +21,13 @@
             <div class="flex items-center justify-between space-x-4 mb-3 text-[#AFB6B2]">
                 <div class="flex-1 flex items-center space-x-2">
                     <p>{{ ix }}</p>
-                    <div class="w-12 h-12">
-                        <img class="w-full h-full" :src="song.img" :alt="song.alt" />
+                    <div>
+                        <img :src="song.img" :alt="song.alt" />
                     </div>
-                    <p>{{ song.title }}</p>
+                    <p class="flex-1">{{ song.title }}</p>
                 </div>
-                <div class="flex-1">{{ song.artiste }}</div>
-                <div class="flex-1">{{ song.album }}</div>
+                <div class="flex-1 flex justify-center">{{ song.artiste }}</div>
+                <div class="flex-1 flex justify-center">{{ song.album }}</div>
                 <div class="flex items-center space-x-2">
                     <p>{{ song.duration }}</p>
                     <svg

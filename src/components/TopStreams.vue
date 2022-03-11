@@ -1,19 +1,21 @@
 <template>
-    <div class="p-3">
+    <div class="p-3 mb-8 bg-[#1E1E1E] rounded-md">
         <div class="flex items-center justify-between mb-4">
-            <p>Top Streams Real-time</p>
-            <div class="flex items-center">
-                <button class="bg-red-100">Local</button>
-                <button class="bg-blue-200">Global</button>
+            <p class="font-semibold">Top Streams Real-time</p>
+            <div class="flex items-center p-1 bg-[#49504D] rounded-sm">
+                <button class="px-2 py-1 bg-[#EE4950]">Local</button>
+                <button class="px-2 py-1">Global</button>
             </div>
         </div>
         <div v-for="(stream, ix) in streams" :key="ix">
-            <div class="flex items-center justify-between pb-3 border-b border-white mb-3">
+            <div
+                class="flex items-center justify-between pb-3 border-b border-[#313533] mb-3 text-[#AFB6B2]"
+            >
                 <div class="flex items-center space-x-2">
                     <img :src="stream.img" :alt="stream.alt" />
                     <div>
-                        <p>{{ stream.title }}</p>
-                        <p>{{ stream.artiste }}</p>
+                        <p class="text-white">{{ stream.title }}</p>
+                        <p class="text-xs">{{ stream.artiste }}</p>
                     </div>
                 </div>
                 <div class="flex items-center space-x-2">
