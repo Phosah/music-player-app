@@ -1,15 +1,15 @@
 <template>
-    <div class="mt-6">
-        <div class="flex items-center justify-between">
-            <p>You May Like</p>
-            <p>See more</p>
+    <div class="mt-8">
+        <div class="flex items-center justify-between mb-4">
+            <p class="font-semibold">You May Like</p>
+            <p class="text-[#F3777D]">See more</p>
         </div>
         <div class="grid grid-cols-7 gap-4">
             <div v-for="(song, ix) in songs" :key="ix">
-                <div>
-                    <img :src="song.img" :alt="song.alt" />
+                <div class="text-center">
+                    <img class="mb-2 w-14 mx-auto h-14" :src="song.img" :alt="song.alt" />
                     <p>{{ song.title }}</p>
-                    <p>{{ song.artiste }}</p>
+                    <p class="text-xs text-[#AFB6B2]">{{ song.artiste }}</p>
                 </div>
             </div>
         </div>

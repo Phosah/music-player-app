@@ -1,6 +1,6 @@
 <template>
-    <div class="h-16 flex items-center justify-between space-x-2 bg-fuchsia-600">
-        <div class="flex items-center space-x-2">
+    <div class="px-20 h-16 flex items-center justify-between space-x-2 bg-fuchsia-600">
+        <div class="flex items-center space-x-3">
             <svg
                 width="20"
                 height="20"
@@ -65,7 +65,7 @@
             </svg>
         </div>
         <div class="flex items-center space-x-6">
-            <img src="../assets/recently-played-2" alt="Recently played" />
+            <img src="../assets/recently-played-2.png" alt="Recently played" />
             <div>
                 <div class="flex items-center justify-center space-x-4 mb-1">
                     <p>On the Ground</p>
@@ -80,7 +80,7 @@
                 </div>
             </div>
         </div>
-        <div class="flex items-center space-x-2">
+        <div class="flex items-center space-x-3">
             <svg
                 width="18"
                 height="19"

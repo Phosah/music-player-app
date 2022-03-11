@@ -1,9 +1,9 @@
 <template>
-    <div class="mt-4">
-        <div class="flex space-x-2 items-center mb-3">
-            <p>Recently played</p>
+    <div class="mt-10">
+        <div class="flex space-x-2 items-center mb-4">
+            <p class="font-semibold">Recently played</p>
             <svg
-                class="w-6 h-6"
+                class="w-6 h-6 text-[#F3777D]"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -18,11 +18,11 @@
             </svg>
         </div>
         <div v-for="(song, ix) in recentlyPlayedSongs" :key="ix">
-            <div class="flex items-center justify-between space-x-4 mb-2">
+            <div class="flex items-center justify-between space-x-4 mb-3 text-[#AFB6B2]">
                 <div class="flex-1 flex items-center space-x-2">
                     <p>{{ ix }}</p>
-                    <div>
-                        <img :src="song.img" :alt="song.alt" />
+                    <div class="w-12 h-12">
+                        <img class="w-full h-full" :src="song.img" :alt="song.alt" />
                     </div>
                     <p>{{ song.title }}</p>
                 </div>

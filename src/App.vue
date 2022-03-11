@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-7xl mx-auto bg-blue-300">
+  <div class="max-w-7xl mx-auto">
     <main>
       <router-view></router-view>
     </main>

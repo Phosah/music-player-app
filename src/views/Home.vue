@@ -1,22 +1,24 @@
 <template>
-  <main class="my-20">
+  <main class="my-20 text-sm text-white">
     <div class="flex">
-      <div>
+      <div class="flex self-stretch">
         <Sidebar />
       </div>
-      <div class="w-2/3 flex-1 flex space-x-6 px-6">
-        <div class="bg-green-200">
-          <Banner />
-          <div>
-            <NewSongRelease :songs="songReleaseArr" />
-            <SongsYouMayLike :songs="songsYouMayLikeArr" />
-            <RecentlyPlayedSongs :recentlyPlayedSongs="playedSongsArr" />
+      <div class="flex-1 flex space-x-6 px-6 pt-6 bg-[#171717]">
+        <div class="w-9/12">
+          <div class>
+            <Banner />
+            <div>
+              <NewSongRelease :songs="songReleaseArr" />
+              <SongsYouMayLike :songs="songsYouMayLikeArr" />
+              <RecentlyPlayedSongs :recentlyPlayedSongs="playedSongsArr" />
+            </div>
           </div>
         </div>
-      </div>
-      <div class="w-1/3 bg-yellow-200">
-        <TopStreams :streams="topStreamsArr" />
-        <Categories :categories="categoriesArr" />
+        <div class="w-3/12 bg-[#1E1E1E] rounded-md">
+          <TopStreams :streams="topStreamsArr" />
+          <Categories :categories="categoriesArr" />
+        </div>
       </div>
     </div>
     <NowPlaying />

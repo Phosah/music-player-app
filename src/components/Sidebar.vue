@@ -1,10 +1,10 @@
 <template>
-    <div class="w-56 bg-red-200">
-        <div class="mb-10">
-            <img class="w-36" src="../assets/logo.png" alt="Logo" />
+    <div class="w-56 px-4 pt-6 bg-[#272727]">
+        <div class="mb-12">
+            <img class="w-28" src="../assets/logo.png" alt="Logo" />
         </div>
-        <div class="mb-10">
-            <div class="flex items-center space-x-2 mb-4">
+        <div class="mb-16">
+            <div class="flex items-center space-x-2 mb-5">
                 <!-- <svg
                     class="w-6 h-6"
                     fill="currentColor"
@@ -31,7 +31,7 @@
                 </svg>
                 <p>Home</p>
             </div>
-            <div class="flex items-center space-x-2 mb-4">
+            <div class="flex items-center space-x-2 mb-5">
                 <svg
                     class="w-6 h-6"
                     fill="none"
@@ -48,7 +48,7 @@
                 </svg>
                 <p>Browse</p>
             </div>
-            <div class="flex items-center space-x-2 mb-4">
+            <div class="flex items-center space-x-2 mb-5">
                 <svg
                     class="w-6 h-6"
                     fill="none"
@@ -65,7 +65,7 @@
                 </svg>
                 <p>Favorite</p>
             </div>
-            <div class="flex items-center space-x-2 mb-4">
+            <div class="flex items-center space-x-2 mb-5">
                 <svg
                     width="24"
                     height="24"
@@ -93,7 +93,7 @@
         </div>
         <div>
             <div class="flex items-center justify-between mb-3">
-                <div class="flex items-center space-x-2">
+                <div class="flex items-center space-x-2 text-[#2E3A59]">
                     <svg
                         class="w-6 h-6"
                         fill="none"
@@ -127,7 +127,7 @@
                     </svg>
                 </div>
             </div>
-            <div class="flex items-center space-x-3 mb-4">
+            <div class="flex items-center space-x-3 mb-4 text-[#F3777D]">
                 <p>For workspace</p>
                 <svg
                     width="20"
@@ -144,11 +144,13 @@
                     />
                 </svg>
             </div>
-            <p class="mb-4">Rich Brian’s collections</p>
-            <p class="mb-4">deep focus</p>
-            <p class="mb-4">Lo-Fi Jazz upbeat</p>
-            <p class="mb-4">For workplace</p>
-            <p class="mb-4">Christmas playlist</p>
+            <div class="text-[#959D99]">
+                <p class="mb-4">Rich Brian’s collections</p>
+                <p class="mb-4">deep focus</p>
+                <p class="mb-4">Lo-Fi Jazz upbeat</p>
+                <p class="mb-4">For workplace</p>
+                <p class="mb-4">Christmas playlist</p>
+            </div>
         </div>
     </div>
 </template>
