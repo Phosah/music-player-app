@@ -70,13 +70,14 @@
             <img src="../assets/recently-played-2.png" alt="Recently played" />
             <div>
                 <div class="flex items-center justify-center space-x-4 mb-1">
-                    <p>On the Ground</p>
-                    <p>Rose</p>
+                    <p class="font-euclid-semibold">On the Ground</p>
+                    <p>.</p>
+                    <p class="text-[#AFB6B2]">Rose</p>
                 </div>
                 <div class="flex items-center space-x-2">
                     <p>2:30</p>
-                    <div class="h-1 w-96 bg-red-600">
-                        <div class="w-3/4 h-full bg-yellow-300"></div>
+                    <div class="h-1 w-96 bg-[#E4E7E5]">
+                        <div class="w-3/4 h-full bg-[#EE4950]"></div>
                     </div>
                     <p>3:45</p>
                 </div>

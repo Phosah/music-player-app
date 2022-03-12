@@ -1,9 +1,11 @@
 <template>
     <div class="relative z-50 pt-6">
-        <div class="flex items-center justify-between w-96 mx-auto px-3 py-2 bg-white rounded-md">
+        <div
+            class="flex items-center justify-between w-96 mx-auto px-3 py-2 bg-white bg-opacity-90 rounded-md"
+        >
             <div class="flex items-center space-x-2 w-full">
                 <svg
-                    class="w-6 h-6"
+                    class="w-6 h-6 text-[#272727]"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -17,14 +19,14 @@
                     />
                 </svg>
                 <input
-                    class="w-full focus-within:outline-none"
+                    class="w-full focus-within:outline-none bg-transparent text-[#49504D]"
                     type="text"
                     placeholder="Search artists, songs, albums..."
                 />
             </div>
             <div class="pl-2 border-l-2 border-[#959D99]">
                 <svg
-                    class="w-6 h-6"
+                    class="w-6 h-6 text-[#272727]"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"

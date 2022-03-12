@@ -1,16 +1,18 @@
 <template>
-    <div>
+    <div class="mb-4">
         <div class="flex items-center justify-between mb-4">
-            <h3 class="font-semibold">Categories</h3>
+            <h2 class="text-lg font-euclid-semibold">Categories</h2>
             <p class="text-[#F3777D]">See all</p>
         </div>
-        <div class="grid grid-cols-2 gap-x-3">
-            <div v-for="(category, ix) in categories" :key="ix">
-                <div class="relative h-24 rounded-md">
-                    <img class="absolute inset-0" :src="category.img" :alt="category.alt" />
-                    <div class="flex items-center justify-center">
-                        <p class="text-white z-50">{{ category.name }}</p>
-                    </div>
+        <div class="grid grid-cols-2 gap-x-3 gap-y-2">
+            <div class="h-16 relative rounded-sm" v-for="(category, ix) in categories" :key="ix">
+                <img
+                    class="absolute inset-0 object-cover h-full w-full rounded-sm"
+                    :src="category.img"
+                    :alt="category.alt"
+                />
+                <div class="flex items-center justify-center h-full">
+                    <p class="text-lg text-white font-euclid-semibold z-50">{{ category.name }}</p>
                 </div>
             </div>
         </div>

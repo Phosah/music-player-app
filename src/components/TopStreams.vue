@@ -1,20 +1,19 @@
 <template>
     <div class="p-3 mb-8 bg-[#1E1E1E] rounded-md">
         <div class="flex items-center justify-between mb-4">
-            <p class="font-semibold">Top Streams Real-time</p>
+            <h3 class="text-base font-euclid-semibold">Top Streams Real-time</h3>
             <div class="flex items-center p-1 bg-[#49504D] rounded-sm">
                 <button class="px-2 py-1 bg-[#EE4950]">Local</button>
                 <button class="px-2 py-1">Global</button>
             </div>
         </div>
-        <div v-for="(stream, ix) in streams" :key="ix">
-            <div
-                class="flex items-center justify-between pb-3 border-b border-[#313533] mb-3 text-[#AFB6B2]"
-            >
+        <div class="text-[#AFB6B2]" v-for="(stream, ix) in streams" :key="ix">
+            <div class="flex items-center justify-between pb-3 border-b border-[#313533] mb-3">
                 <div class="flex items-center space-x-2">
+                    <p>{{ ix }}</p>
                     <img :src="stream.img" :alt="stream.alt" />
                     <div>
-                        <p class="text-white">{{ stream.title }}</p>
+                        <p class="text-white font-euclid-semibold">{{ stream.title }}</p>
                         <p class="text-xs">{{ stream.artiste }}</p>
                     </div>
                 </div>
@@ -50,6 +49,23 @@
                     </svg>
                 </div>
             </div>
+        </div>
+        <div class="flex space-x-2 items-center justify-center mt-8">
+            <p>Expand</p>
+            <svg
+                class="w-4 h-4"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+            >
+                <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M19 9l-7 7-7-7"
+                />
+            </svg>
         </div>
     </div>
 </template>

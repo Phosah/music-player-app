@@ -3,7 +3,7 @@
         <div class="mb-12">
             <img class="w-28" src="../assets/logo.png" alt="Logo" />
         </div>
-        <div class="mb-16">
+        <div class="mb-16 font-euclid-bold">
             <div class="flex items-center space-x-2 mb-5">
                 <!-- <svg
                     class="w-6 h-6"
@@ -91,7 +91,7 @@
                 <p>Library</p>
             </div>
         </div>
-        <div>
+        <div class="font-euclid-medium">
             <div class="flex items-center justify-between mb-3">
                 <div class="flex items-center space-x-2 text-[#2E3A59]">
                     <svg

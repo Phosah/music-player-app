@@ -1,7 +1,7 @@
 <template>
     <div class="mt-10">
         <div class="flex space-x-2 items-center mb-4">
-            <p class="font-semibold">Recently played</p>
+            <h2 class="text-lg font-semibold">Recently played</h2>
             <svg
                 class="w-6 h-6 text-[#F3777D]"
                 fill="none"
@@ -28,7 +28,7 @@
                 </div>
                 <div class="flex-1 flex justify-center">{{ song.artiste }}</div>
                 <div class="flex-1 flex justify-center">{{ song.album }}</div>
-                <div class="flex items-center space-x-2">
+                <div class="flex items-center space-x-3">
                     <p>{{ song.duration }}</p>
                     <svg
                         class="w-6 h-6"

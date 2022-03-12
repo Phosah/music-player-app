@@ -2,7 +2,7 @@
     <div class="mt-8">
         <div class="flex items-center justify-between mb-4">
             <div class="flex items-center space-x-2">
-                <p class="font-semibold">New Releases</p>
+                <h2 class="text-lg font-euclid-semibold">New Releases</h2>
                 <svg
                     class="w-6 h-6 text-[#EE4950]"
                     fill="currentColor"
@@ -21,7 +21,7 @@
         <div class="grid grid-cols-5 gap-x-3">
             <div v-for="(song, ix) in songs" :key="ix">
                 <img class="mb-2" :src="song.img" :alt="song.alt" />
-                <p class>{{ song.title }}</p>
+                <p class="text-[#E4E7E5] font-semibold">{{ song.title }}</p>
                 <p class="text-xs text-[#AFB6B2]">{{ song.artiste }}</p>
             </div>
         </div>
