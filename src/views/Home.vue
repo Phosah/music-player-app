@@ -1,5 +1,5 @@
 <template>
-  <main class="my-20 text-sm text-[#FAFAFA]">
+  <main class="text-sm text-[#FAFAFA]">
     <div class="flex">
       <div class="flex self-stretch">
         <Sidebar />
