@@ -23,6 +23,7 @@
     </div>
     <NowPlaying />
   </main>
+  <div>{{ songsDb }}</div>
 </template>
 
 <script lang="ts">
@@ -67,6 +68,7 @@ import RecentlyPlayedSongs from "../components/RecentlyPlayedSongs.vue";
 import type { PropType } from "vue";
 import type RecentlyPlayed from "@/types/RecentlyPlayed";
 import NowPlaying from "../components/NowPlaying.vue";
+import JsonDb from "@/db.json"
 
 export default defineComponent({
   name: "Home",
@@ -107,6 +109,7 @@ export default defineComponent({
     ])
     const topStreamsArr = ref<Streams[]>([
       {
+        id: 1,
         img: img8,
         alt: "Justin bieber",
         title: "Mistletoe",
@@ -114,6 +117,7 @@ export default defineComponent({
         duration: "3:45",
       },
       {
+        id: 2,
         img: img6,
         alt: "Adele",
         title: "Easy on me",
@@ -121,6 +125,7 @@ export default defineComponent({
         duration: "3:45",
       },
       {
+        id: 3,
         img: img7,
         alt: "Public Library Community",
         title: "Moonlight",
@@ -128,6 +133,7 @@ export default defineComponent({
         duration: "3:45",
       },
       {
+        id: 4,
         img: img8,
         alt: "Taylor swift",
         title: "Red (Taylor’s Version)",
@@ -135,6 +141,7 @@ export default defineComponent({
         duration: "3:45",
       },
       {
+        id: 5,
         img: img9,
         alt: "88rising",
         title: "Midsummer Madness",
@@ -142,6 +149,7 @@ export default defineComponent({
         duration: "3:45",
       },
       {
+        id: 6,
         img: img10,
         alt: "Pink Sweat$",
         title: "I feel good",
@@ -149,6 +157,7 @@ export default defineComponent({
         duration: "3:45",
       },
       {
+        id: 7,
         img: img11,
         alt: "Vincent Fable",
         title: "Get lost",
@@ -252,7 +261,10 @@ export default defineComponent({
       },
 
     ])
-    return { songReleaseArr, topStreamsArr, categoriesArr, songsYouMayLikeArr, playedSongsArr }
+
+    const songsDb = JsonDb
+
+    return { songReleaseArr, topStreamsArr, categoriesArr, songsYouMayLikeArr, playedSongsArr, songsDb }
   }
 })
 </script>

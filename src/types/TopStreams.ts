@@ -1,4 +1,5 @@
 interface TopStreams {
+    id: number,
     img: any,
     alt: string,
     title: string,
