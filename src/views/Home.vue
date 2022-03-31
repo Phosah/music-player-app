@@ -33,12 +33,6 @@ import NewSongRelease from "../components/NewSongRelease.vue";
 import type LatestSongRelease from "../types/LatestSongRelease";
 import TopStreams from "../components/TopStreams.vue";
 import type Streams from "@/types/TopStreams";
-import pop from "@/assets/category-1.png";
-import jazz from "@/assets/category-2.png";
-import romance from "../assets/category-3.png";
-import chill from "@/assets/category-4.png";
-import hiphop from "@/assets/category-5.png";
-import rock from "@/assets/category-6.png";
 import Categories from "../components/Categories.vue";
 import type Category from "@/types/Categories";
 import SongsYouMayLike from "../components/SongsYouMayLike.vue";
@@ -54,43 +48,11 @@ export default defineComponent({
   components: { Sidebar, Banner, NewSongRelease, TopStreams, Categories, SongsYouMayLike, RecentlyPlayedSongs, NowPlaying },
 
   setup() {
-    const categoriesArr = ref<Category[]>([
-      {
-        img: pop,
-        alt: "Pop",
-        name: "Pop"
-      },
-      {
-        img: jazz,
-        alt: "Jazz",
-        name: "Jazz"
-      },
-      {
-        img: pop,
-        alt: "Rock",
-        name: "Rock"
-      },
-      {
-        img: jazz,
-        alt: "Romance",
-        name: "Romance"
-      },
-      {
-        img: pop,
-        alt: "Hiphop",
-        name: "Hiphop"
-      },
-      {
-        img: jazz,
-        alt: "Chill",
-        name: "Chill"
-      },
-    ])
-
     const topStreamsArray = ref<Streams[]>((AllSongs.topStreams))
     const newReleaseArray = ref<LatestSongRelease[]>(AllSongs.newRelease)
     const songsYouMayLikeArray = ref<SongsToLike[]>(AllSongs.songsYouMayLike)
     const recentlyPlayedSongsArr = ref<RecentlyPlayed[]>(AllSongs.recentlyPlayed)
+    const categoriesArr = ref<Category[]>(AllSongs.categories)
 
     return { categoriesArr, topStreamsArray, newReleaseArray, songsYouMayLikeArray, recentlyPlayedSongsArr }
   }

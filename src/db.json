@@ -160,5 +160,37 @@
         "album": "-R-",
         "duration": "3:45"
       }
+    ],
+    "categories": [
+        {
+        "img": "../src/assets/category-1.png",
+        "alt": "Pop",
+        "name": "Pop"
+      },
+      {
+        "img": "../src/assets/category-2.png",
+        "alt": "Jazz",
+        "name": "Jazz"
+      },
+      {
+        "img": "../src/assets/category-3.png",
+        "alt": "Rock",
+        "name": "Rock"
+      },
+      {
+        "img": "../src/assets/category-4.png",
+        "alt": "Romance",
+        "name": "Romance"
+      },
+      {
+        "img": "../src/assets/category-5.png",
+        "alt": "Hiphop",
+        "name": "Hiphop"
+      },
+      {
+        "img": "../src/assets/category-6.png",
+        "alt": "Chill",
+        "name": "Chill"
+      }
     ]
 }
