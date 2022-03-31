@@ -2,7 +2,7 @@
     "topStreams": [
         {
             "id": 1,
-            "img": "./assets/top-streams-1.png",
+            "img": "/images/top-streams-1.png",
             "alt": "Justin Bieber",
             "artiste": "Justin Bierber",
             "title": "Mistletoe",
@@ -10,7 +10,7 @@
         },
         {
             "id": 2,
-            "img": "../src/assets/top-streams-3.png",
+            "img": "/images/top-streams-3.png",
             "alt": "Easy on me",
             "artiste": "Adele",
             "title": "Easy on me",
@@ -18,7 +18,7 @@
         },
         {
             "id": 3,
-            "img": "../src/assets/top-streams-2.png",
+            "img": "/images/top-streams-2.png",
             "alt": "Moonlight",
             "artiste": "Public library community",
             "title": "Moonlight",
@@ -26,7 +26,7 @@
         },
         {
             "id": 4,
-            "img": "../src/assets/top-streams-4.png",
+            "img": "/images/top-streams-4.png",
             "alt": "Red(Taylor's version)",
             "artiste": "Taylor Swift",
             "title": "Red(Taylor's version)",
@@ -34,7 +34,7 @@
         },
         {
             "id": 5,
-            "img": "../src/assets/top-streams-5.png",
+            "img": "/images/top-streams-5.png",
             "alt": "Midsummer madness",
             "artiste": "88rising",
             "title": "Midsummer madness",
@@ -42,7 +42,7 @@
         },
         {
             "id": 6,
-            "img": "../src/assets/top-streams-6.png",
+            "img": "/images/top-streams-6.png",
             "alt": "I feel good",
             "artiste": "Pink Sweat",
             "title": "I feel good",
@@ -50,7 +50,7 @@
         },
         {
             "id": 7,
-            "img": "./src/assets/top-streams-7.png",
+            "img": "/images/top-streams-7.png",
             "alt": "Get Lost",
             "artiste": "Vincent Fable",
             "title": "Get Lost",
