@@ -1,5 +1,5 @@
 {
-    "songs": [
+    "topStreams": [
         {
             "id": 1,
             "img": "../src/assets/top-streams-1.png",
@@ -56,5 +56,109 @@
             "title": "Get Lost",
             "duration": "3:45"
         }
+    ],
+    "newRelease": [
+        {
+            "id": 1,
+            "img": "../src/assets/new-release-1.png",
+            "alt": "Red(Taylor's version)",
+            "artiste": "Taylor Swift",
+            "title": "Red(Taylor's version)",
+            "duration": "3:45"
+        },
+        {
+            "id": 2,
+            "img": "../src/assets/new-release-2.png",
+            "alt": "Need to know",
+            "artiste": "Dojo Cat",
+            "title": "Need to know",
+            "duration": "3:45"
+        },
+        {
+            "id": 3,
+            "img": "../src/assets/new-release-3.png",
+            "alt": "After Hours",
+            "artiste": "The weekend",
+            "title": "After Hours",
+            "duration": "3:45"
+        },
+        {
+            "id": 4,
+            "img": "../src/assets/new-release-4.png",
+            "alt": "Hit Machine",
+            "artiste": "Soundwave",
+            "title": "Hit Machine",
+            "duration": "3:45"
+        },
+        {
+            "id": 1,
+            "img": "../src/assets/new-release-1.png",
+            "alt": "Red(Taylor's version)",
+            "artiste": "Taylor Swift",
+            "title": "Red(Taylor's version)",
+            "duration": "3:45"
+        }
+    ],
+    "songsYouMayLike": [
+         {
+        "img": "../src/assets/like-1.png",
+        "alt": "Shaun",
+        "title": "Way Back Home",
+        "artiste": "Shaun"
+      },
+      {
+        "img": "../src/assets/like-2.png",
+        "alt": "The Clean Bandit",
+        "title": "Rockabye",
+        "artiste": "The Clean Bandit"
+      },
+      {
+        "img": "../src/assets/like-3.png",
+        "alt": "Pink Sweat$",
+        "title": "All my worst",
+        "artiste": "Pink Sweat$"
+      },
+      {
+        "img": "../src/assets/like-4.png",
+        "alt": "Kanye West",
+        "title": "Graduation",
+        "artiste": "Kanye West"
+      },
+      {
+        "img": "../src/assets/like-5.png",
+        "alt": "Zedd",
+        "title": "Stay",
+        "artiste": "Zedd"
+      },
+      {
+        "img": "../src/assets/like-6.png",
+        "alt": "Gayle",
+        "title": "abcdefu",
+        "artiste": "Gayle"
+      },
+      {
+        "img": "../src/assets/like-7.png",
+        "alt": "Ed Sheeran",
+        "title": "Bad Habits",
+        "artiste": "Ed Sheeran"
+      }
+    ],
+    "recentlyPlayed": [
+        {
+        "img": "../src/assets/recently-played-1.png",
+        "alt": "Maria Carey",
+        "title": "All I Want For Christmas Is You",
+        "artiste": "Maria Carey",
+        "album": "Album",
+        "duration": "3:45"
+      },
+      {
+        "img": "../src/assets/recently-played-2.png",
+        "alt": "Rose",
+        "title": "On The Ground",
+        "artiste": "Rose",
+        "album": "-R-",
+        "duration": "3:45"
+      }
     ]
 }
