@@ -100,97 +100,99 @@
         }
     ],
     "songsYouMayLike": [
-         {
-        "img": "../src/assets/like-1.png",
-        "alt": "Shaun",
-        "title": "Way Back Home",
-        "artiste": "Shaun"
-      },
-      {
-        "img": "../src/assets/like-2.png",
-        "alt": "The Clean Bandit",
-        "title": "Rockabye",
-        "artiste": "The Clean Bandit"
-      },
-      {
-        "img": "../src/assets/like-3.png",
-        "alt": "Pink Sweat$",
-        "title": "All my worst",
-        "artiste": "Pink Sweat$"
-      },
-      {
-        "img": "../src/assets/like-4.png",
-        "alt": "Kanye West",
-        "title": "Graduation",
-        "artiste": "Kanye West"
-      },
-      {
-        "img": "../src/assets/like-5.png",
-        "alt": "Zedd",
-        "title": "Stay",
-        "artiste": "Zedd"
-      },
-      {
-        "img": "../src/assets/like-6.png",
-        "alt": "Gayle",
-        "title": "abcdefu",
-        "artiste": "Gayle"
-      },
-      {
-        "img": "../src/assets/like-7.png",
-        "alt": "Ed Sheeran",
-        "title": "Bad Habits",
-        "artiste": "Ed Sheeran"
-      }
+        {
+            "img": "../src/assets/like-1.png",
+            "alt": "Shaun",
+            "title": "Way Back Home",
+            "artiste": "Shaun"
+        },
+        {
+            "img": "../src/assets/like-2.png",
+            "alt": "The Clean Bandit",
+            "title": "Rockabye",
+            "artiste": "The Clean Bandit"
+        },
+        {
+            "img": "../src/assets/like-3.png",
+            "alt": "Pink Sweat$",
+            "title": "All my worst",
+            "artiste": "Pink Sweat$"
+        },
+        {
+            "img": "../src/assets/like-4.png",
+            "alt": "Kanye West",
+            "title": "Graduation",
+            "artiste": "Kanye West"
+        },
+        {
+            "img": "../src/assets/like-5.png",
+            "alt": "Zedd",
+            "title": "Stay",
+            "artiste": "Zedd"
+        },
+        {
+            "img": "../src/assets/like-6.png",
+            "alt": "Gayle",
+            "title": "abcdefu",
+            "artiste": "Gayle"
+        },
+        {
+            "img": "../src/assets/like-7.png",
+            "alt": "Ed Sheeran",
+            "title": "Bad Habits",
+            "artiste": "Ed Sheeran"
+        }
     ],
     "recentlyPlayed": [
         {
-        "img": "../src/assets/recently-played-1.png",
-        "alt": "Maria Carey",
-        "title": "All I Want For Christmas Is You",
-        "artiste": "Maria Carey",
-        "album": "Album",
-        "duration": "3:45"
-      },
-      {
-        "img": "../src/assets/recently-played-2.png",
-        "alt": "Rose",
-        "title": "On The Ground",
-        "artiste": "Rose",
-        "album": "-R-",
-        "duration": "3:45"
-      }
+            "id": 1,
+            "img": "../src/assets/recently-played-1.png",
+            "alt": "Maria Carey",
+            "title": "All I Want For Christmas Is You",
+            "artiste": "Maria Carey",
+            "album": "Album",
+            "duration": "3:45"
+        },
+        {
+            "id": 2,
+            "img": "../src/assets/recently-played-2.png",
+            "alt": "Rose",
+            "title": "On The Ground",
+            "artiste": "Rose",
+            "album": "-R-",
+            "duration": "3:45"
+        }
     ],
     "categories": [
         {
         "img": "../src/assets/category-1.png",
         "alt": "Pop",
         "name": "Pop"
-      },
-      {
-        "img": "../src/assets/category-2.png",
-        "alt": "Jazz",
-        "name": "Jazz"
-      },
-      {
-        "img": "../src/assets/category-3.png",
-        "alt": "Rock",
-        "name": "Rock"
-      },
-      {
-        "img": "../src/assets/category-4.png",
-        "alt": "Romance",
-        "name": "Romance"
-      },
-      {
-        "img": "../src/assets/category-5.png",
-        "alt": "Hiphop",
-        "name": "Hiphop"
-      },
-      {
-        "img": "../src/assets/category-6.png",
-        "alt": "Chill",
-        "name": "Chill"
-      }
+        },
+        {
+            "img": "../src/assets/category-2.png",
+            "alt": "Jazz",
+            "name": "Jazz"
+        },
+        {
+            "img": "../src/assets/category-3.png",
+            "alt": "Rock",
+            "name": "Rock"
+        },
+        {
+            "img": "../src/assets/category-4.png",
+            "alt": "Romance",
+            "name": "Romance"
+        },
+        {
+            "img": "../src/assets/category-5.png",
+            "alt": "Hiphop",
+            "name": "Hiphop"
+        },
+        {
+            "img": "../src/assets/category-6.png",
+            "alt": "Chill",
+            "name": "Chill"
+        }
     ]
 }

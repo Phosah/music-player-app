@@ -20,7 +20,7 @@
         <div v-for="(song, ix) in recentlyPlayedSongs" :key="ix">
             <div class="flex items-center justify-between space-x-4 mb-3 text-[#AFB6B2]">
                 <div class="flex-1 flex items-center space-x-2">
-                    <p>{{ ix }}</p>
+                    <p>{{ song.id }}</p>
                     <div>
                         <img :src="song.img" :alt="song.alt" />
                     </div>
