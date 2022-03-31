@@ -2,7 +2,7 @@
     "topStreams": [
         {
             "id": 1,
-            "img": "../src/assets/top-streams-1.png",
+            "img": "./assets/top-streams-1.png",
             "alt": "Justin Bieber",
             "artiste": "Justin Bierber",
             "title": "Mistletoe",
