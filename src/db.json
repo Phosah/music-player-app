@@ -2,7 +2,7 @@
     "songs": [
         {
             "id": 1,
-            "img": "./assets/top-streams-1.png",
+            "img": "../src/assets/top-streams-1.png",
             "alt": "Justin Bieber",
             "artiste": "Justin Bierber",
             "title": "Mistletoe",
@@ -10,48 +10,48 @@
         },
         {
             "id": 2,
-            "img": "./assets/top-streams-1.png",
-            "alt": "Justin Bieber",
+            "img": "../src/assets/top-streams-3.png",
+            "alt": "Easy on me",
             "artiste": "Adele",
             "title": "Easy on me",
             "duration": "3:45"
         },
         {
             "id": 3,
-            "img": "./assets/top-streams-1.png",
-            "alt": "Justin Bieber",
+            "img": "../src/assets/top-streams-2.png",
+            "alt": "Moonlight",
             "artiste": "Public library community",
             "title": "Moonlight",
             "duration": "3:45"
         },
         {
             "id": 4,
-            "img": "./assets/top-streams-1.png",
-            "alt": "Justin Bieber",
+            "img": "../src/assets/top-streams-4.png",
+            "alt": "Red(Taylor's version)",
             "artiste": "Taylor Swift",
             "title": "Red(Taylor's version)",
             "duration": "3:45"
         },
         {
             "id": 5,
-            "img": "./assets/top-streams-1.png",
-            "alt": "Justin Bieber",
+            "img": "../src/assets/top-streams-5.png",
+            "alt": "Midsummer madness",
             "artiste": "88rising",
             "title": "Midsummer madness",
             "duration": "3:45"
         },
         {
             "id": 6,
-            "img": "./assets/top-streams-1.png",
-            "alt": "Justin Bieber",
+            "img": "../src/assets/top-streams-6.png",
+            "alt": "I feel good",
             "artiste": "Pink Sweat",
             "title": "I feel good",
             "duration": "3:45"
         },
         {
             "id": 7,
-            "img": "./assets/top-streams-1.png",
-            "alt": "Justin Bieber",
+            "img": "./src/assets/top-streams-7.png",
+            "alt": "Get Lost",
             "artiste": "Vincent Fable",
             "title": "Get Lost",
             "duration": "3:45"

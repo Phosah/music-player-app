@@ -16,7 +16,7 @@
           </div>
         </div>
         <div class="w-2/6">
-          <TopStreams :streams="topStreamsArr" />
+          <TopStreams :streams="songsDb" />
           <Categories :categories="categoriesArr" />
         </div>
       </div>
@@ -68,7 +68,7 @@ import RecentlyPlayedSongs from "../components/RecentlyPlayedSongs.vue";
 import type { PropType } from "vue";
 import type RecentlyPlayed from "@/types/RecentlyPlayed";
 import NowPlaying from "../components/NowPlaying.vue";
-import JsonDb from "@/db.json"
+import AllSongs from "@/db.json"
 
 export default defineComponent({
   name: "Home",
@@ -262,7 +262,7 @@ export default defineComponent({
 
     ])
 
-    const songsDb = JsonDb
+    const songsDb = ref<Streams[]>((AllSongs.songs))
 
     return { songReleaseArr, topStreamsArr, categoriesArr, songsYouMayLikeArr, playedSongsArr, songsDb }
   }
