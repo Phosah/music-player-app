@@ -38,7 +38,6 @@ import type Category from "@/types/Categories";
 import SongsYouMayLike from "../components/SongsYouMayLike.vue";
 import type SongsToLike from "@/types/SongsToLike";
 import RecentlyPlayedSongs from "../components/RecentlyPlayedSongs.vue";
-import type { PropType } from "vue";
 import type RecentlyPlayed from "@/types/RecentlyPlayed";
 import NowPlaying from "../components/NowPlaying.vue";
 import AllSongs from "@/db.json"
