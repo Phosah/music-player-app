@@ -20,9 +20,11 @@
         </div>
         <div class="grid grid-cols-5 gap-x-3">
             <div v-for="(song, ix) in songs" :key="ix">
-                <img class="mb-2" :src="song.img" :alt="song.alt" />
-                <p class="text-[#E4E7E5] font-semibold">{{ song.title }}</p>
-                <p class="text-xs text-[#AFB6B2]">{{ song.artiste }}</p>
+                <div class="cursor-pointer">
+                    <img class="mb-2" :src="song.img" :alt="song.alt" />
+                    <p class="text-[#E4E7E5] font-semibold">{{ song.title }}</p>
+                    <p class="text-xs text-[#AFB6B2]">{{ song.artiste }}</p>
+                </div>
             </div>
         </div>
     </div>

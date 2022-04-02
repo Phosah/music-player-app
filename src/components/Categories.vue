@@ -2,10 +2,14 @@
     <div class="mb-4">
         <div class="flex items-center justify-between mb-4">
             <h2 class="text-lg font-euclid-semibold">Categories</h2>
-            <p class="text-[#F3777D]">See all</p>
+            <p class="text-[#F3777D] hover:border-b hover:border-[#F3777D]">See all</p>
         </div>
         <div class="grid grid-cols-2 gap-x-3 gap-y-2">
-            <div class="h-16 relative rounded-sm" v-for="(category, ix) in categories" :key="ix">
+            <div
+                class="h-16 relative rounded-sm cursor-pointer"
+                v-for="(category, ix) in categories"
+                :key="ix"
+            >
                 <img
                     class="absolute inset-0 object-cover h-full w-full rounded-sm"
                     :src="category.img"

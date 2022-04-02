@@ -18,7 +18,9 @@
             </svg>
         </div>
         <div v-for="(song, ix) in recentlyPlayedSongs" :key="ix">
-            <div class="flex items-center justify-between space-x-4 mb-3 text-[#AFB6B2]">
+            <div
+                class="flex items-center justify-between space-x-4 mb-3 text-[#AFB6B2] cursor-pointer"
+            >
                 <div class="flex-1 flex items-center space-x-2">
                     <p>{{ song.id }}</p>
                     <div>

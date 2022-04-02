@@ -8,7 +8,9 @@
             </div>
         </div>
         <div class="text-[#AFB6B2]" v-for="(stream, ix) in streams" :key="ix">
-            <div class="flex items-center justify-between pb-3 border-b border-[#313533] mb-3">
+            <div
+                class="flex items-center justify-between pb-3 border-b border-[#313533] mb-3 cursor-pointer"
+            >
                 <div class="flex items-center space-x-2">
                     <p>{{ stream.id }}</p>
                     <img :src="stream.img" :alt="stream.alt" />
