@@ -4,7 +4,7 @@
             <img class="w-28" src="../assets/logo.png" alt="Logo" />
         </div>
         <div class="mb-16 font-euclid-bold">
-            <div class="flex items-center space-x-2 mb-5">
+            <div class="flex items-center space-x-2 py-3 hover:bg-[#EE4950]">
                 <!-- <svg
                     class="w-6 h-6"
                     fill="currentColor"
@@ -31,7 +31,7 @@
                 </svg>
                 <p>Home</p>
             </div>
-            <div class="flex items-center space-x-2 mb-5">
+            <div class="flex items-center space-x-2 py-3 hover:bg-[#EE4950]">
                 <svg
                     class="w-6 h-6"
                     fill="none"
@@ -48,7 +48,7 @@
                 </svg>
                 <p>Browse</p>
             </div>
-            <div class="flex items-center space-x-2 mb-5">
+            <div class="flex items-center space-x-2 py-3 hover:bg-[#EE4950]">
                 <svg
                     class="w-6 h-6"
                     fill="none"
@@ -65,7 +65,7 @@
                 </svg>
                 <p>Favorite</p>
             </div>
-            <div class="flex items-center space-x-2 mb-5">
+            <div class="flex items-center space-x-2 py-3 hover:bg-[#EE4950]">
                 <svg
                     width="24"
                     height="24"
