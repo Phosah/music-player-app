@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-[90rem] mx-auto font-euclid-regular">
+  <div class="max-w-[2000px] mx-auto font-euclid-regular">
     <main>
       <router-view></router-view>
     </main>
